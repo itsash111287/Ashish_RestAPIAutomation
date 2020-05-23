@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14023" started-at="2020-05-23T20:40:13Z" finished-at="2020-05-23T20:40:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14023" started-at="2020-05-23T20:40:13Z" finished-at="2020-05-23T20:40:27Z">
+      <class name="GETREQ">
+        <test-method status="PASS" signature="checkAuthorizationTest()[pri:0, instance:GETREQ@c038203]" name="checkAuthorizationTest" duration-ms="9850" started-at="2020-05-24T02:10:13Z" finished-at="2020-05-24T02:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationTest -->
+        <test-method status="PASS" signature="createUserTest()[pri:0, instance:GETREQ@c038203]" name="createUserTest" duration-ms="1073" started-at="2020-05-24T02:10:23Z" finished-at="2020-05-24T02:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:GETREQ@c038203]" name="deleteUserTest" duration-ms="709" started-at="2020-05-24T02:10:24Z" finished-at="2020-05-24T02:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method status="PASS" signature="getUserDetailsTest()[pri:0, instance:GETREQ@c038203]" name="getUserDetailsTest" duration-ms="660" started-at="2020-05-24T02:10:24Z" finished-at="2020-05-24T02:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetailsTest -->
+        <test-method status="PASS" signature="getweather()[pri:0, instance:GETREQ@c038203]" name="getweather" duration-ms="934" started-at="2020-05-24T02:10:25Z" finished-at="2020-05-24T02:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweather -->
+        <test-method status="PASS" signature="updateUserDetailsTest()[pri:0, instance:GETREQ@c038203]" name="updateUserDetailsTest" duration-ms="735" started-at="2020-05-24T02:10:26Z" finished-at="2020-05-24T02:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserDetailsTest -->
+      </class> <!-- GETREQ -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
