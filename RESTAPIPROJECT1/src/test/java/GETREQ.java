@@ -1,9 +1,27 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.nio.channels.Channels;
+import java.nio.channels.FileChannel;
+import java.nio.channels.ReadableByteChannel;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.StringTokenizer;
+
 import org.json.simple.JSONObject;
 
 import org.testng.annotations.Test;
 
+import com.google.common.io.Files;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
+//import io.restassured.internal.support.FileReader;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -127,11 +145,14 @@ public class GETREQ {
 		RequestSpecification httrequest = RestAssured.given();
 		
 		//Response Object
-		
+
 		Response response = httrequest.request(Method.GET,"/employee");
 		System.out.println(response);
 		
 		//print response
+	
+		
+	
 		
 		String responsebody = response.getBody().asString();
 		//System.out.println("Response body is:" + responsebody);
@@ -173,4 +194,36 @@ public class GETREQ {
 //    	 Assert.assertEquals(statusCode, 200); 
 //    	 
 //    	 }
+    
+    @Test
+    public void readfile() throws IOException{
+//    	ReadableByteChannel readChannel = Channels.newChannel(new URL("https://edition.cnn.com/ads.txt").openStream());
+//    	FileOutputStream fileOS = new FileOutputStream("C:/Users/TEMP.DESKTOP-SGAKA4V.000/pub_name.txt");
+//    	FileChannel writeChannel = fileOS.getChannel();
+//    	String input = FilesUtil.readTextFile("C:/TEST AUTOMATION/MY NOTES.txt");
+//        System.out.println(input);
+//   	FileUtils.copyURLToFile(
+//    			  new URL("https://edition.c nn.com/ads.txt"), 
+//   			  new File("C:/Users/TEMP.DESKTOP-SGAKA4V.000/pub_name.txt"));
+////    			  CONNECTION_TIMEOUT, 
+//    			  READ_TIMEOUT);
+//    	InputStream inputStream = new URL("https://edition.cnn.com/ads.txt").openStream();
+//    	Files.copy(inputStream, Paths.get("/Users/username/Documents/file_name.txt"), StandardCopyOption.REPLACE_EXISTING);
+    	File dr = new File("C://TEST AUTOMATIO/mytest.txt");
+    	//(InputStream dr = Files.newInputStream(C:/TEST AUTOMATION/JAVA NOTES FOR ME.txt);
+    	FileReader fr = new FileReader(dr);
+    	BufferedReader bd = new BufferedReader(fr);
+    	String line;
+    	while((line=bd.readLine())!=null){
+    		StringTokenizer str = new StringTokenizer(line,";");
+    		String name = str.nextToken();
+    		String value = str.nextToken();
+    		String type = str.nextToken();
+    		System.out.println(name + value + type);
+//    		
+//    	}
+    	
+    	
+    }
+    }
 }
