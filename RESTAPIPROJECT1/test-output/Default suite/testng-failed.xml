@@ -5,7 +5,7 @@
     <classes>
       <class name="GETREQ">
         <methods>
-          <include name="readfile"/>
+          <include name="letsreadfile"/>
         </methods>
       </class> <!-- GETREQ -->
     </classes>
