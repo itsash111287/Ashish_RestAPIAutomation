@@ -230,6 +230,7 @@ public class GETREQ {
     		            bw.write(inputLine);
     		            bw.newLine();
     		            //cc
+    		            
     		            continue;
     		      
    		        		}
