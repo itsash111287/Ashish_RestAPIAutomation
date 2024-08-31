@@ -2,84 +2,84 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-12T13:59:52 IST" name="Default suite" finished-at="2024-05-12T14:00:02 IST" duration-ms="10454">
+  <suite started-at="2024-08-31T23:46:20 IST" name="Default suite" finished-at="2024-08-31T23:46:28 IST" duration-ms="7836">
     <groups>
     </groups>
-    <test started-at="2024-05-12T13:59:52 IST" name="Default test" finished-at="2024-05-12T14:00:02 IST" duration-ms="10454">
+    <test started-at="2024-08-31T23:46:20 IST" name="Default test" finished-at="2024-08-31T23:46:28 IST" duration-ms="7836">
       <class name="RestAssured.FirstReq">
-        <test-method is-config="true" signature="setupSpecBuilder()[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T13:59:52 IST" name="setupSpecBuilder" finished-at="2024-05-12T13:59:54 IST" duration-ms="2191" status="PASS">
+        <test-method is-config="true" signature="setupSpecBuilder()[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:20 IST" name="setupSpecBuilder" finished-at="2024-08-31T23:46:22 IST" duration-ms="1666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSpecBuilder -->
-        <test-method signature="testHasKeyAssertion()[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T13:59:54 IST" name="testHasKeyAssertion" finished-at="2024-05-12T13:59:59 IST" duration-ms="5167" status="PASS">
+        <test-method signature="testHasKeyAssertion()[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:22 IST" name="testHasKeyAssertion" finished-at="2024-08-31T23:46:27 IST" duration-ms="4682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHasKeyAssertion -->
-        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T13:59:59 IST" name="getTestExecutionTime" finished-at="2024-05-12T13:59:59 IST" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:27 IST" name="getTestExecutionTime" finished-at="2024-08-31T23:46:27 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testHasKeyAssertion status=SUCCESS method=FirstReq.testHasKeyAssertion()[pri:0, instance:RestAssured.FirstReq@a87f8ec] output={null}]]]>
+                <![CDATA[[TestResult name=testHasKeyAssertion status=SUCCESS method=FirstReq.testHasKeyAssertion()[pri:0, instance:RestAssured.FirstReq@4f9a2c08] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestExecutionTime -->
-        <test-method signature="testMultipleAssertStatement()[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T13:59:59 IST" name="testMultipleAssertStatement" finished-at="2024-05-12T14:00:00 IST" duration-ms="757" status="PASS">
+        <test-method signature="testMultipleAssertStatement()[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:27 IST" name="testMultipleAssertStatement" finished-at="2024-08-31T23:46:27 IST" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultipleAssertStatement -->
-        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T14:00:00 IST" name="getTestExecutionTime" finished-at="2024-05-12T14:00:00 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:27 IST" name="getTestExecutionTime" finished-at="2024-08-31T23:46:27 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testMultipleAssertStatement status=SUCCESS method=FirstReq.testMultipleAssertStatement()[pri:0, instance:RestAssured.FirstReq@a87f8ec] output={null}]]]>
+                <![CDATA[[TestResult name=testMultipleAssertStatement status=SUCCESS method=FirstReq.testMultipleAssertStatement()[pri:0, instance:RestAssured.FirstReq@4f9a2c08] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestExecutionTime -->
-        <test-method signature="testNotAssertions()[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T14:00:00 IST" name="testNotAssertions" finished-at="2024-05-12T14:00:01 IST" duration-ms="625" status="PASS">
+        <test-method signature="testNotAssertions()[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:27 IST" name="testNotAssertions" finished-at="2024-08-31T23:46:28 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNotAssertions -->
-        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T14:00:01 IST" name="getTestExecutionTime" finished-at="2024-05-12T14:00:01 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:28 IST" name="getTestExecutionTime" finished-at="2024-08-31T23:46:28 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNotAssertions status=SUCCESS method=FirstReq.testNotAssertions()[pri:0, instance:RestAssured.FirstReq@a87f8ec] output={null}]]]>
+                <![CDATA[[TestResult name=testNotAssertions status=SUCCESS method=FirstReq.testNotAssertions()[pri:0, instance:RestAssured.FirstReq@4f9a2c08] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestExecutionTime -->
-        <test-method signature="testNotNullAssertions()[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T14:00:01 IST" name="testNotNullAssertions" finished-at="2024-05-12T14:00:01 IST" duration-ms="501" status="PASS">
+        <test-method signature="testNotNullAssertions()[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:28 IST" name="testNotNullAssertions" finished-at="2024-08-31T23:46:28 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNotNullAssertions -->
-        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T14:00:01 IST" name="getTestExecutionTime" finished-at="2024-05-12T14:00:01 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:28 IST" name="getTestExecutionTime" finished-at="2024-08-31T23:46:28 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNotNullAssertions status=SUCCESS method=FirstReq.testNotNullAssertions()[pri:0, instance:RestAssured.FirstReq@a87f8ec] output={null}]]]>
+                <![CDATA[[TestResult name=testNotNullAssertions status=SUCCESS method=FirstReq.testNotNullAssertions()[pri:0, instance:RestAssured.FirstReq@4f9a2c08] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestExecutionTime -->
-        <test-method signature="testStringAssertions()[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T14:00:01 IST" name="testStringAssertions" finished-at="2024-05-12T14:00:02 IST" duration-ms="598" status="PASS">
+        <test-method signature="testStringAssertions()[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:28 IST" name="testStringAssertions" finished-at="2024-08-31T23:46:28 IST" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStringAssertions -->
-        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@a87f8ec]" started-at="2024-05-12T14:00:02 IST" name="getTestExecutionTime" finished-at="2024-05-12T14:00:02 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="getTestExecutionTime(org.testng.ITestResult)[pri:0, instance:RestAssured.FirstReq@4f9a2c08]" started-at="2024-08-31T23:46:28 IST" name="getTestExecutionTime" finished-at="2024-08-31T23:46:28 IST" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testStringAssertions status=SUCCESS method=FirstReq.testStringAssertions()[pri:0, instance:RestAssured.FirstReq@a87f8ec] output={null}]]]>
+                <![CDATA[[TestResult name=testStringAssertions status=SUCCESS method=FirstReq.testStringAssertions()[pri:0, instance:RestAssured.FirstReq@4f9a2c08] output={null}]]]>
               </value>
             </param>
           </params>

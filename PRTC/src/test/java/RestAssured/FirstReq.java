@@ -72,7 +72,9 @@ public class FirstReq {
             .body ("data[0].email", containsString ("michael.lawson"))
             .body ("data[0].last_name", startsWith ("L"))
             .body ("data[0].last_name", endsWith ("n"))
-            .body ("data[1].first_name", equalToCompressingWhiteSpace ("    Lindsay "));
+            .body ("data[1].first_name", equalToCompressingWhiteSpace ("    Lindsay "))
+            .log()
+            .all();
     }
 
     @Test
@@ -85,6 +87,8 @@ public class FirstReq {
             .spec (responseSpecification)
             .and ()
             .assertThat ()
+            .log()
+            .all()
             .body ("data[0].first_name", is (Matchers.notNullValue ()));
 
     }
@@ -102,7 +106,9 @@ public class FirstReq {
             .body ("data[0]", hasKey ("email"))
             .body ("support", hasKey ("url"))
             .body ("$", hasKey ("page"))
-            .body ("$", hasKey ("total"));
+            .body ("$", hasKey ("total"))
+            .log()
+            .all();
     }
 
     @Test
@@ -117,7 +123,9 @@ public class FirstReq {
             .assertThat ()
             .body ("data", not (emptyArray ()))
             .body ("data[0].first_name", not (equalTo ("George")))
-            .body ("data.size()", greaterThan (5));
+            .body ("data.size()", greaterThan (5))
+            .log()
+            .all();
     }
 
     @Test
@@ -130,7 +138,9 @@ public class FirstReq {
             .spec (responseSpecification)
             .and ()
             .assertThat ()
-            .body ("page", equalTo (2), "data[0].first_name", equalTo ("Michael"), "support.url", is (notNullValue ()));
+            .body ("page", equalTo (2), "data[0].first_name", equalTo ("Michael"), "support.url", is (notNullValue ()))
+            .log()
+            .all();
 
     }
 
